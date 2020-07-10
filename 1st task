@@ -1,0 +1,35 @@
+               **FIRST TASK**
+Aftre downlaod Virtualbox and insall Ubuntu-20.04 on it from these links:
+[https://www.virtualbox.org/wiki/Downloads](url)
+[https://ubuntu.com/download/desktop](url) 
+
+**Install Ros**
+
+**Step 1** — Set up ROS Noetic repo for Ubuntu 20.04:
+echo "deb http://packages.ros.org/ros/ubuntu focal main" | sudo tee /etc/apt/sources.list.d/ros-focal.list
+
+**Step 2** — Add official ROS keyring:
+sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+
+The second way if you has not internet :
+
+curl -sSL 'http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xC1CF6E31E6BADE8868B172B4F42ED6FBAB17C654' | sudo apt-key add -
+
+If you see output “OK”, the key is successfully added.
+
+
+**Step 3** — Update ROS package index:
+sudo apt update
+
+
+**Step 4** — Install ROS Noetic package:
+sudo apt install ros-noetic-desktop
+
+there are four packages but i choose the desktop   
+
+
+**Set up ROS Noetic environment**
+source /opt/ros/noetic/setup.bash
+
+In case you are using zsh instead of bash, run the follow command instead:
+echo "source /opt/ros/noetic/setup.zsh" >> ~/.zshrc
