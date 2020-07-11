@@ -4,7 +4,7 @@ Aftre downlaod Virtualbox and insall Ubuntu-20.04 on it from these links:
 [https://www.virtualbox.org/wiki/Downloads](url)
 [https://ubuntu.com/download/desktop](url) 
 
-                                          **Install Ros**
+                                            Install Ros
 
 **Step 1** — Set up ROS Noetic repo for Ubuntu 20.04:
 
