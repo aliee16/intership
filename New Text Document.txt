@@ -1,7 +1,0 @@
-
-First week :
-We got introduction about what is AI and how is it help us as electric engineer and some examples  how is that improve our works.
-![Screenshot (33)](https://user-images.githubusercontent.com/67034346/87166504-57327000-c2d4-11ea-9625-455e75f95914.png)
-
-Second week:
-We learned a definition of AI and which one will work on. Also which program we need in next 9 weeks such as Python and Ros so we have to work on linux .
