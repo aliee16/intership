@@ -4,8 +4,11 @@
 > Let us start from src in workspace and install package turtlebo3:
 
 `$ cd ~/catkin_ws/src`
+
 `$ git clone https://github.com/ROBOTIS-GIT/turtlebot3.git`
+
 `$ cd ~/catkin_ws/`
+
 `$ catkin_make`
 
 
@@ -14,9 +17,13 @@
 > Then downlaod simulation:
 
 `$ cd ~/catkin_ws/src`
+
 `$ git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git`
+
 `$ cd ~/catkin_ws/`
+
 `$ catkin_make`
+
 `$ source devel/setup.bash`
 
 
